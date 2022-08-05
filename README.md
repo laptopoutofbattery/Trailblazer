@@ -1,3 +1,3 @@
 # Trailblazer
-❤️ Reyes Lee
+Indeed.
 <header 1>
