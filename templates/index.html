@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 
 <html>
-   <head>
-         <meta charset="UTF-8">
-         <link rel="stylesheet" href="/static/stylesheets/wow.css">
 
-         <!-- The welcome struct (shown in the main.go code) is received within the HTML and we just need to use the . operator and retrieve the information we want -->
-         <title>Welcome {{.Name}}</title>
+   <head>
+         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+         <title>Cool</title>
+         <link rel="stylesheet" href="/static/stylesheets/index.css">
+         <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> -->
    </head>
+
    <body>
-      <div class="welcome center">Welcome {{.Name}}, it is {{.Time}}</div>
+      <!-- <div class="welcome center">Welcome {{.Name}}, it is {{.Time}}</div> -->
+      <div class="outer">
+         <div class="middle">
+            <div class="innder">
+
+               <center>
+               <div class="welcome center">Welcome!</div>
+               <br>
+               <p>This website aims to teach you new concept and skills, for personal and work use.</p>
+               <button class="button startbutton" onClick="location.href='home'"> <span> Start! </span> </button>
+               </center>
+
+            </div>
+         </div>
+      </div>
    </body>
+
 </html>
