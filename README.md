@@ -1,3 +1,9 @@
 # Trailblazer
-Indeed.
-<header 1>
+Indeed.  
+
+<br>
+
+**TODO**:  
+- make courses
+- make account system (mysql?)
+- make better
